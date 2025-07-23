@@ -9,7 +9,6 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Fork Sync
       - uses: tgymnich/fork-sync@v1.2.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
